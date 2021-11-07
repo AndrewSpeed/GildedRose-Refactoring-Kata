@@ -3,7 +3,7 @@ import pytest
 from ..gilded_rose import Item, GildedRose
 
 @pytest.fixture()
-def item(sell_in=0, quality=40):
+def item(sell_in=0, quality=80):
     return Item(name="Sulfuras, Hand of Ragnaros", sell_in=sell_in, quality=quality)
 
 def update_item(item):
